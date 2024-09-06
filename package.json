@@ -1,0 +1,22 @@
+{
+  "name": "albertina",
+  "version": "0.0.1",
+  "main": "dist/bot.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/bot.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "ts-node": "^10.9.2",
+    "telegraf": "^4.0.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.2.32",
+    "dotenv": "^16.4.5",
+    "node-llama-cpp": "^2.8.16",
+    "telegraf": "^4.16.3"
+  }
+}
