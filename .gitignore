@@ -13,6 +13,9 @@ package-lock.json
 # ENV
 .env
 
+# Database
+
+*.db
 # Models
 *.gguf
 
